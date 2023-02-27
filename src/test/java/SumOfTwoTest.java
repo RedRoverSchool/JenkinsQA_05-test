@@ -13,8 +13,6 @@ public class SumOfTwoTest {
         int[][] actualResult = new SumOfTwo().sumOfTwo(array,sum);
 
         Assert.assertEquals(actualResult,expectedResult);
-
-
     }
 
     @Test
@@ -50,6 +48,4 @@ public class SumOfTwoTest {
 
         Assert.assertEquals(actualResult,expectedResult);
     }
-
-
 }
