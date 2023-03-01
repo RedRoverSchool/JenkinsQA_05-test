@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 public class StringMethodsTest {
 
-    @Test
+    @Test(groups = {"Regression"})
     public void RemoveSpaceTest1() {
         String s  = " Red Rover School ";
         String expectedResult = "Лишние пробелы удалены";
@@ -12,7 +12,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Smoke"})
     public void RemoveSpaceTest2() {
         String s  = "Red Rover School";
         String expectedResult = "Пробелов не было";
@@ -21,7 +21,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Regression", "Smoke"})
     public void RemoveSpaceTest3() {
         String s  = "";
         String expectedResult = "Строка пустая";
@@ -30,7 +30,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Regression", "Smoke"})
     public void RemoveAllAsTest1() {
         String text  = " Red Rover School ";
         String expectedResult = "Red Rover School";
@@ -39,7 +39,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Integration", "Acceptance"})
     public void RemoveAllAsTest2() {
         String text  = "panda ";
         String expectedResult = "pnd";
@@ -48,7 +48,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Integration", "Acceptance"})
     public void RemoveAllAsTest3() {
         String text  = "taramasalata";
         String expectedResult = "trmslt";
@@ -57,7 +57,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Integration", "Acceptance"})
     public void RemoveAllAllZerosTest1() {
         String text  = "3504209706040000";
         String expectedResult = "35429764";
@@ -66,7 +66,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Integration", "Acceptance"})
     public void RemoveAllAllZerosTest2() {
         String text  = "0000000111";
         String expectedResult = "111";
@@ -75,7 +75,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Integration", "Acceptance"})
     public void RemoveAllSpacesTest1() {
         String text  = " R e d Ro ve r Sc h ool ";
         String expectedResult = "RedRoverSchool";
@@ -84,7 +84,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Integration"})
     public void RemoveAllSpacesTest2() {
         String text  = "p a n d a ";
         String expectedResult = "panda";
@@ -93,7 +93,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Acceptance"})
     public void CountAsTest1() {
         String text  = "Abracadabra";
         String expectedResult = "5, 6";
@@ -102,7 +102,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Acceptance"})
     public void CountAsTest2() {
         String text  = "Homenum Revelio";
         String expectedResult = "0, 15";
@@ -111,7 +111,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Integration"})
     public void CountAsTest3() {
         String text  = "3 tarAmasAlatA";
         String expectedResult = "6, 8";
@@ -120,7 +120,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Acceptance"})
     public void CountJavaTest1() {
         String text  = "As of March 2022, Java 18 is the latest version, while Java 17," +
                 " 11 and 8 are the current long-term support (LTS) versions." +
@@ -137,7 +137,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Integration", "Acceptance"})
     public void CountJavaTest2() {
         String text  = "99 little bugs in a code.\n" +
                 "99 little bugs in a code.\n" +
@@ -149,7 +149,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Integration"})
     public void IsSameFirstLastLetterIndexOfTest1() {
         String word  = "Abracadabra";
         boolean expectedResult = true;
@@ -158,7 +158,7 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Acceptance"})
     public void IsSameFirstLastLetterIndexOfTest2() {
         String word  = "Whippersnapper";
         boolean expectedResult = false;

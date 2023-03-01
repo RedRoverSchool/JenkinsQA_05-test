@@ -4,7 +4,8 @@ import org.testng.annotations.Ignore;
 
 public class SumOfTwoTest {
 
-    @Test
+    @Test(groups = {"Regression", "Smoke"})
+
     public void testSumOfTwo_HappyPath() {
         int sum = 12;
         int[]array = {4, 3, 7, 12, 5, 2, 9, 4, 12};
@@ -14,7 +15,7 @@ public class SumOfTwoTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Smoke"})
     public void testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath() {
         int sum = 1;
         int[]array = {4, 3, 7, 12, 5, 2, 9, 4, 12};
@@ -35,7 +36,7 @@ public class SumOfTwoTest {
         Assert.assertEquals(actualResult,expectedResult);
     }
 
-    @Test
+    @Test(groups = {"Regression"})
     public void testSumOfTwoEmptyArray_Negative() {
         int sum = 12;
         int[]array = {};
