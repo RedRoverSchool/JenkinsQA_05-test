@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.848" tests="38" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/liudmilaplucci/JenkinsQA_05-test/target/test-classes:/Users/liudmilaplucci/JenkinsQA_05-test/target/classes:/Users/liudmilaplucci/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/liudmilaplucci/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/liudmilaplucci/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/liudmilaplucci/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/liudmilaplucci/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/liudmilaplucci/JenkinsQA_05-test/target/surefire/surefirebooter-20230302195055757_3.jar /Users/liudmilaplucci/JenkinsQA_05-test/target/surefire 2023-03-02T19-50-55_376-jvmRun1 surefire-20230302195055757_1tmp surefire_0-20230302195055757_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/liudmilaplucci/JenkinsQA_05-test/target/test-classes:/Users/liudmilaplucci/JenkinsQA_05-test/target/classes:/Users/liudmilaplucci/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/liudmilaplucci/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/liudmilaplucci/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/liudmilaplucci/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/liudmilaplucci/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/liudmilaplucci"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/liudmilaplucci/JenkinsQA_05-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/liudmilaplucci/JenkinsQA_05-test/target/surefire/surefirebooter-20230302195055757_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
+    <property name="user.name" value="liudmilaplucci"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/liudmilaplucci/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/wg/_3010lwn3gxb26jsbhybptsr0000gn/T/"/>
+    <property name="java.version" value="11.0.14"/>
+    <property name="user.dir" value="/Users/liudmilaplucci/JenkinsQA_05-test"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/liudmilaplucci/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testStartEqualsEnd_HappyPath" classname="FizzBuzzTest" time="0.012">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testStartGreaterThanEnd_Negative" classname="FizzBuzzTest" time="0"/>
+  <testcase name="testStartLessThanEnd_HappyPath" classname="FizzBuzzTest" time="0"/>
+  <testcase name="testStartLessThanEnd_StartEndAreNegative_HappyPath" classname="FizzBuzzTest" time="0"/>
+  <testcase name="testOddIndicesEmpty_Negative" classname="OddIndicesTest" time="0"/>
+  <testcase name="testOddIndicesNull_Negative" classname="OddIndicesTest" time="0"/>
+  <testcase name="testOddIndicesWithArrayOfTwo_HappyPath" classname="OddIndicesTest" time="0"/>
+  <testcase name="testOddIndices_HappyPath" classname="OddIndicesTest" time="0"/>
+  <testcase name="testSortArray_HappyPath" classname="SortArrayTest" time="0"/>
+  <testcase name="testSortArray_Negative" classname="SortArrayTest" time="0"/>
+  <testcase name="testPeakElementEmpty_Negative" classname="PeakElementTest" time="0"/>
+  <testcase name="testPeakElementSomeNegative_HappyPath" classname="PeakElementTest" time="0"/>
+  <testcase name="testPeakElement_HappyPath" classname="PeakElementTest" time="0"/>
+  <testcase name="testStartNegSumArray_HappyPath" classname="SumArrayTest" time="0.002"/>
+  <testcase name="testStartSumArray_HappyPath" classname="SumArrayTest" time="0"/>
+  <testcase name="testStartSumArray_Negative" classname="SumArrayTest" time="0.001"/>
+  <testcase name="CountAsTest1" classname="StringMethodsTest" time="0.003"/>
+  <testcase name="CountAsTest2" classname="StringMethodsTest" time="0.002"/>
+  <testcase name="CountAsTest3" classname="StringMethodsTest" time="0"/>
+  <testcase name="CountJavaTest1" classname="StringMethodsTest" time="0"/>
+  <testcase name="CountJavaTest2" classname="StringMethodsTest" time="0.003"/>
+  <testcase name="IsSameFirstLastLetterIndexOfTest1" classname="StringMethodsTest" time="0"/>
+  <testcase name="IsSameFirstLastLetterIndexOfTest2" classname="StringMethodsTest" time="0"/>
+  <testcase name="RemoveAllAllZerosTest1" classname="StringMethodsTest" time="0"/>
+  <testcase name="RemoveAllAllZerosTest2" classname="StringMethodsTest" time="0"/>
+  <testcase name="RemoveAllAsTest1" classname="StringMethodsTest" time="0.004"/>
+  <testcase name="RemoveAllAsTest2" classname="StringMethodsTest" time="0"/>
+  <testcase name="RemoveAllAsTest3" classname="StringMethodsTest" time="0"/>
+  <testcase name="RemoveAllSpacesTest1" classname="StringMethodsTest" time="0"/>
+  <testcase name="RemoveAllSpacesTest2" classname="StringMethodsTest" time="0"/>
+  <testcase name="RemoveSpaceTest1" classname="StringMethodsTest" time="0"/>
+  <testcase name="RemoveSpaceTest2" classname="StringMethodsTest" time="0"/>
+  <testcase name="RemoveSpaceTest3" classname="StringMethodsTest" time="0"/>
+  <testcase name="testReverseArray_HappyPath" classname="ReverseArrayTest" time="0.001"/>
+  <testcase name="testReverseArray_Negative" classname="ReverseArrayTest" time="0"/>
+  <testcase name="testSumOfTwoEmptyArray_Negative" classname="SumOfTwoTest" time="0"/>
+  <testcase name="testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath" classname="SumOfTwoTest" time="0"/>
+  <testcase name="testSumOfTwo_HappyPath" classname="SumOfTwoTest" time="0.007"/>
+</testsuite>

@@ -1,13 +1,14 @@
 *.iml
 .idea
 *.class
-target/
+#target/
 *.DS_Store
-local.properties
 debug.log
 .vscode
 .settings
 *.puml
 # Allure Report
-allure-results/
-.allure/
+#allure-results/
+#.allure/
+
+

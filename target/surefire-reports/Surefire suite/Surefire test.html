@@ -1,0 +1,270 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 02 19:50:56 GMT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (95 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SumArrayTest.testStartNegSumArray_HappyPath()'><b>testStartNegSumArray_HappyPath</b><br>Test class: SumArrayTest</td>
+<td></td>
+<td>0</td>
+<td>SumArrayTest@1ebd319f</td></tr>
+<tr>
+<td title='StringMethodsTest.RemoveAllSpacesTest2()'><b>RemoveAllSpacesTest2</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='OddIndicesTest.testOddIndicesWithArrayOfTwo_HappyPath()'><b>testOddIndicesWithArrayOfTwo_HappyPath</b><br>Test class: OddIndicesTest</td>
+<td></td>
+<td>0</td>
+<td>OddIndicesTest@6db9f5a4</td></tr>
+<tr>
+<td title='SumArrayTest.testStartSumArray_Negative()'><b>testStartSumArray_Negative</b><br>Test class: SumArrayTest</td>
+<td></td>
+<td>0</td>
+<td>SumArrayTest@1ebd319f</td></tr>
+<tr>
+<td title='StringMethodsTest.RemoveSpaceTest1()'><b>RemoveSpaceTest1</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='PeakElementTest.testPeakElement_HappyPath()'><b>testPeakElement_HappyPath</b><br>Test class: PeakElementTest</td>
+<td></td>
+<td>0</td>
+<td>PeakElementTest@7b02881e</td></tr>
+<tr>
+<td title='StringMethodsTest.RemoveAllAllZerosTest1()'><b>RemoveAllAllZerosTest1</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='StringMethodsTest.IsSameFirstLastLetterIndexOfTest2()'><b>IsSameFirstLastLetterIndexOfTest2</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='StringMethodsTest.RemoveAllAsTest1()'><b>RemoveAllAsTest1</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='SortArrayTest.testSortArray_Negative()'><b>testSortArray_Negative</b><br>Test class: SortArrayTest</td>
+<td></td>
+<td>0</td>
+<td>SortArrayTest@5f8edcc5</td></tr>
+<tr>
+<td title='StringMethodsTest.CountJavaTest1()'><b>CountJavaTest1</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='ReverseArrayTest.testReverseArray_HappyPath()'><b>testReverseArray_HappyPath</b><br>Test class: ReverseArrayTest</td>
+<td></td>
+<td>0</td>
+<td>ReverseArrayTest@15ca7889</td></tr>
+<tr>
+<td title='StringMethodsTest.CountAsTest1()'><b>CountAsTest1</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='ReverseArrayTest.testReverseArray_Negative()'><b>testReverseArray_Negative</b><br>Test class: ReverseArrayTest</td>
+<td></td>
+<td>0</td>
+<td>ReverseArrayTest@15ca7889</td></tr>
+<tr>
+<td title='FizzBuzzTest.testStartLessThanEnd_HappyPath()'><b>testStartLessThanEnd_HappyPath</b><br>Test class: FizzBuzzTest</td>
+<td></td>
+<td>0</td>
+<td>FizzBuzzTest@4c309d4d</td></tr>
+<tr>
+<td title='StringMethodsTest.CountAsTest2()'><b>CountAsTest2</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='SumOfTwoTest.testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath()'><b>testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath</b><br>Test class: SumOfTwoTest</td>
+<td></td>
+<td>0</td>
+<td>SumOfTwoTest@7a675056</td></tr>
+<tr>
+<td title='SumOfTwoTest.testSumOfTwo_HappyPath()'><b>testSumOfTwo_HappyPath</b><br>Test class: SumOfTwoTest</td>
+<td></td>
+<td>0</td>
+<td>SumOfTwoTest@7a675056</td></tr>
+<tr>
+<td title='SortArrayTest.testSortArray_HappyPath()'><b>testSortArray_HappyPath</b><br>Test class: SortArrayTest</td>
+<td></td>
+<td>0</td>
+<td>SortArrayTest@5f8edcc5</td></tr>
+<tr>
+<td title='OddIndicesTest.testOddIndicesEmpty_Negative()'><b>testOddIndicesEmpty_Negative</b><br>Test class: OddIndicesTest</td>
+<td></td>
+<td>0</td>
+<td>OddIndicesTest@6db9f5a4</td></tr>
+<tr>
+<td title='FizzBuzzTest.testStartLessThanEnd_StartEndAreNegative_HappyPath()'><b>testStartLessThanEnd_StartEndAreNegative_HappyPath</b><br>Test class: FizzBuzzTest</td>
+<td></td>
+<td>0</td>
+<td>FizzBuzzTest@4c309d4d</td></tr>
+<tr>
+<td title='OddIndicesTest.testOddIndicesNull_Negative()'><b>testOddIndicesNull_Negative</b><br>Test class: OddIndicesTest</td>
+<td></td>
+<td>0</td>
+<td>OddIndicesTest@6db9f5a4</td></tr>
+<tr>
+<td title='StringMethodsTest.RemoveAllAsTest2()'><b>RemoveAllAsTest2</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='StringMethodsTest.RemoveSpaceTest2()'><b>RemoveSpaceTest2</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='PeakElementTest.testPeakElementSomeNegative_HappyPath()'><b>testPeakElementSomeNegative_HappyPath</b><br>Test class: PeakElementTest</td>
+<td></td>
+<td>0</td>
+<td>PeakElementTest@7b02881e</td></tr>
+<tr>
+<td title='SumOfTwoTest.testSumOfTwoEmptyArray_Negative()'><b>testSumOfTwoEmptyArray_Negative</b><br>Test class: SumOfTwoTest</td>
+<td></td>
+<td>0</td>
+<td>SumOfTwoTest@7a675056</td></tr>
+<tr>
+<td title='SumArrayTest.testStartSumArray_HappyPath()'><b>testStartSumArray_HappyPath</b><br>Test class: SumArrayTest</td>
+<td></td>
+<td>0</td>
+<td>SumArrayTest@1ebd319f</td></tr>
+<tr>
+<td title='StringMethodsTest.CountAsTest3()'><b>CountAsTest3</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='StringMethodsTest.RemoveAllAllZerosTest2()'><b>RemoveAllAllZerosTest2</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='StringMethodsTest.CountJavaTest2()'><b>CountJavaTest2</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='PeakElementTest.testPeakElementEmpty_Negative()'><b>testPeakElementEmpty_Negative</b><br>Test class: PeakElementTest</td>
+<td></td>
+<td>0</td>
+<td>PeakElementTest@7b02881e</td></tr>
+<tr>
+<td title='StringMethodsTest.RemoveSpaceTest3()'><b>RemoveSpaceTest3</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='StringMethodsTest.IsSameFirstLastLetterIndexOfTest1()'><b>IsSameFirstLastLetterIndexOfTest1</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='OddIndicesTest.testOddIndices_HappyPath()'><b>testOddIndices_HappyPath</b><br>Test class: OddIndicesTest</td>
+<td></td>
+<td>0</td>
+<td>OddIndicesTest@6db9f5a4</td></tr>
+<tr>
+<td title='FizzBuzzTest.testStartEqualsEnd_HappyPath()'><b>testStartEqualsEnd_HappyPath</b><br>Test class: FizzBuzzTest</td>
+<td></td>
+<td>0</td>
+<td>FizzBuzzTest@4c309d4d</td></tr>
+<tr>
+<td title='StringMethodsTest.RemoveAllSpacesTest1()'><b>RemoveAllSpacesTest1</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+<tr>
+<td title='FizzBuzzTest.testStartGreaterThanEnd_Negative()'><b>testStartGreaterThanEnd_Negative</b><br>Test class: FizzBuzzTest</td>
+<td></td>
+<td>0</td>
+<td>FizzBuzzTest@4c309d4d</td></tr>
+<tr>
+<td title='StringMethodsTest.RemoveAllAsTest3()'><b>RemoveAllAsTest3</b><br>Test class: StringMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>StringMethodsTest@3c0be339</td></tr>
+</table><p>
+</body>
+</html>
