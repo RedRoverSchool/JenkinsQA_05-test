@@ -19,6 +19,7 @@ public class FizzBuzzTest {
 
     @Test
     public void testStartEqualsEnd_HappyPath() {
+
         int start = 1;
         int end = 1;
         String [] expectedResult = {"1"};
