@@ -4,7 +4,7 @@ import org.testng.annotations.Ignore;
 
 public class SumOfTwoTest {
 
-    @Test(groups = {"Regression", "Smoke"})
+    @Test(groups = {"Regression"})
 
     public void testSumOfTwo_HappyPath() {
         int sum = 12;
