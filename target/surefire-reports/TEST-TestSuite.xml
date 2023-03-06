@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.848" tests="38" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.823" tests="38" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/liudmilaplucci/JenkinsQA_05-test/target/surefire/surefirebooter-20230302195055757_3.jar /Users/liudmilaplucci/JenkinsQA_05-test/target/surefire 2023-03-02T19-50-55_376-jvmRun1 surefire-20230302195055757_1tmp surefire_0-20230302195055757_2tmp"/>
+    <property name="sun.java.command" value="/Users/liudmilaplucci/JenkinsQA_05-test/target/surefire/surefirebooter-20230306142234885_3.jar /Users/liudmilaplucci/JenkinsQA_05-test/target/surefire 2023-03-06T14-22-34_530-jvmRun1 surefire-20230306142234885_1tmp surefire_0-20230306142234885_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/liudmilaplucci/JenkinsQA_05-test/target/test-classes:/Users/liudmilaplucci/JenkinsQA_05-test/target/classes:/Users/liudmilaplucci/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/liudmilaplucci/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/liudmilaplucci/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/liudmilaplucci/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/liudmilaplucci/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/liudmilaplucci/JenkinsQA_05-test/target/surefire/surefirebooter-20230302195055757_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/liudmilaplucci/JenkinsQA_05-test/target/surefire/surefirebooter-20230306142234885_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
     <property name="user.name" value="liudmilaplucci"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testStartEqualsEnd_HappyPath" classname="FizzBuzzTest" time="0.012">
+  <testcase name="testStartEqualsEnd_HappyPath" classname="FizzBuzzTest" time="0.009">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
@@ -71,34 +71,34 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
   <testcase name="testOddIndicesNull_Negative" classname="OddIndicesTest" time="0"/>
   <testcase name="testOddIndicesWithArrayOfTwo_HappyPath" classname="OddIndicesTest" time="0"/>
   <testcase name="testOddIndices_HappyPath" classname="OddIndicesTest" time="0"/>
-  <testcase name="testSortArray_HappyPath" classname="SortArrayTest" time="0"/>
+  <testcase name="testSortArray_HappyPath" classname="SortArrayTest" time="0.001"/>
   <testcase name="testSortArray_Negative" classname="SortArrayTest" time="0"/>
-  <testcase name="testPeakElementEmpty_Negative" classname="PeakElementTest" time="0"/>
-  <testcase name="testPeakElementSomeNegative_HappyPath" classname="PeakElementTest" time="0"/>
+  <testcase name="testPeakElementEmpty_Negative" classname="PeakElementTest" time="0.001"/>
+  <testcase name="testPeakElementSomeNegative_HappyPath" classname="PeakElementTest" time="0.001"/>
   <testcase name="testPeakElement_HappyPath" classname="PeakElementTest" time="0"/>
-  <testcase name="testStartNegSumArray_HappyPath" classname="SumArrayTest" time="0.002"/>
+  <testcase name="testStartNegSumArray_HappyPath" classname="SumArrayTest" time="0"/>
   <testcase name="testStartSumArray_HappyPath" classname="SumArrayTest" time="0"/>
-  <testcase name="testStartSumArray_Negative" classname="SumArrayTest" time="0.001"/>
+  <testcase name="testStartSumArray_Negative" classname="SumArrayTest" time="0"/>
   <testcase name="CountAsTest1" classname="StringMethodsTest" time="0.003"/>
-  <testcase name="CountAsTest2" classname="StringMethodsTest" time="0.002"/>
+  <testcase name="CountAsTest2" classname="StringMethodsTest" time="0"/>
   <testcase name="CountAsTest3" classname="StringMethodsTest" time="0"/>
   <testcase name="CountJavaTest1" classname="StringMethodsTest" time="0"/>
-  <testcase name="CountJavaTest2" classname="StringMethodsTest" time="0.003"/>
+  <testcase name="CountJavaTest2" classname="StringMethodsTest" time="0.001"/>
   <testcase name="IsSameFirstLastLetterIndexOfTest1" classname="StringMethodsTest" time="0"/>
   <testcase name="IsSameFirstLastLetterIndexOfTest2" classname="StringMethodsTest" time="0"/>
   <testcase name="RemoveAllAllZerosTest1" classname="StringMethodsTest" time="0"/>
   <testcase name="RemoveAllAllZerosTest2" classname="StringMethodsTest" time="0"/>
-  <testcase name="RemoveAllAsTest1" classname="StringMethodsTest" time="0.004"/>
+  <testcase name="RemoveAllAsTest1" classname="StringMethodsTest" time="0"/>
   <testcase name="RemoveAllAsTest2" classname="StringMethodsTest" time="0"/>
-  <testcase name="RemoveAllAsTest3" classname="StringMethodsTest" time="0"/>
+  <testcase name="RemoveAllAsTest3" classname="StringMethodsTest" time="0.001"/>
   <testcase name="RemoveAllSpacesTest1" classname="StringMethodsTest" time="0"/>
   <testcase name="RemoveAllSpacesTest2" classname="StringMethodsTest" time="0"/>
   <testcase name="RemoveSpaceTest1" classname="StringMethodsTest" time="0"/>
   <testcase name="RemoveSpaceTest2" classname="StringMethodsTest" time="0"/>
-  <testcase name="RemoveSpaceTest3" classname="StringMethodsTest" time="0"/>
-  <testcase name="testReverseArray_HappyPath" classname="ReverseArrayTest" time="0.001"/>
+  <testcase name="RemoveSpaceTest3" classname="StringMethodsTest" time="0.001"/>
+  <testcase name="testReverseArray_HappyPath" classname="ReverseArrayTest" time="0"/>
   <testcase name="testReverseArray_Negative" classname="ReverseArrayTest" time="0"/>
-  <testcase name="testSumOfTwoEmptyArray_Negative" classname="SumOfTwoTest" time="0"/>
+  <testcase name="testSumOfTwoEmptyArray_Negative" classname="SumOfTwoTest" time="0.001"/>
   <testcase name="testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath" classname="SumOfTwoTest" time="0"/>
-  <testcase name="testSumOfTwo_HappyPath" classname="SumOfTwoTest" time="0.007"/>
+  <testcase name="testSumOfTwo_HappyPath" classname="SumOfTwoTest" time="0.008"/>
 </testsuite>

@@ -1,6 +1,5 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.annotations.Ignore;
 
 public class SumOfTwoTest {
 

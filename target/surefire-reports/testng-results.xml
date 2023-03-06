@@ -1,216 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="39" passed="38" failed="0" skipped="0">
+<testng-results ignored="0" total="38" passed="38" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-02T19:50:56 GMT" name="Surefire suite" finished-at="2023-03-02T19:50:56 GMT" duration-ms="95">
+  <suite started-at="2023-03-06T14:22:35 GMT" name="Surefire suite" finished-at="2023-03-06T14:22:35 GMT" duration-ms="89">
     <groups>
       <group name="Integration">
-        <method signature="StringMethodsTest.CountAsTest3()[pri:0, instance:StringMethodsTest@3c0be339]" name="CountAsTest3" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.CountJavaTest2()[pri:0, instance:StringMethodsTest@3c0be339]" name="CountJavaTest2" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.IsSameFirstLastLetterIndexOfTest1()[pri:0, instance:StringMethodsTest@3c0be339]" name="IsSameFirstLastLetterIndexOfTest1" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveAllAllZerosTest1()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllAllZerosTest1" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveAllAllZerosTest2()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllAllZerosTest2" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveAllAsTest2()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllAsTest2" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveAllAsTest3()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllAsTest3" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveAllSpacesTest1()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllSpacesTest1" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveAllSpacesTest2()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllSpacesTest2" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.CountAsTest3()[pri:0, instance:StringMethodsTest@7b02881e]" name="CountAsTest3" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.CountJavaTest2()[pri:0, instance:StringMethodsTest@7b02881e]" name="CountJavaTest2" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.IsSameFirstLastLetterIndexOfTest1()[pri:0, instance:StringMethodsTest@7b02881e]" name="IsSameFirstLastLetterIndexOfTest1" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveAllAllZerosTest1()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllAllZerosTest1" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveAllAllZerosTest2()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllAllZerosTest2" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveAllAsTest2()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllAsTest2" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveAllAsTest3()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllAsTest3" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveAllSpacesTest1()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllSpacesTest1" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveAllSpacesTest2()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllSpacesTest2" class="StringMethodsTest"/>
       </group> <!-- Integration -->
       <group name="Acceptance">
-        <method signature="StringMethodsTest.CountAsTest1()[pri:0, instance:StringMethodsTest@3c0be339]" name="CountAsTest1" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.CountAsTest2()[pri:0, instance:StringMethodsTest@3c0be339]" name="CountAsTest2" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.CountJavaTest1()[pri:0, instance:StringMethodsTest@3c0be339]" name="CountJavaTest1" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.CountJavaTest2()[pri:0, instance:StringMethodsTest@3c0be339]" name="CountJavaTest2" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.IsSameFirstLastLetterIndexOfTest2()[pri:0, instance:StringMethodsTest@3c0be339]" name="IsSameFirstLastLetterIndexOfTest2" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveAllAllZerosTest1()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllAllZerosTest1" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveAllAllZerosTest2()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllAllZerosTest2" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveAllAsTest2()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllAsTest2" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveAllAsTest3()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllAsTest3" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveAllSpacesTest1()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllSpacesTest1" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.CountAsTest1()[pri:0, instance:StringMethodsTest@7b02881e]" name="CountAsTest1" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.CountAsTest2()[pri:0, instance:StringMethodsTest@7b02881e]" name="CountAsTest2" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.CountJavaTest1()[pri:0, instance:StringMethodsTest@7b02881e]" name="CountJavaTest1" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.CountJavaTest2()[pri:0, instance:StringMethodsTest@7b02881e]" name="CountJavaTest2" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.IsSameFirstLastLetterIndexOfTest2()[pri:0, instance:StringMethodsTest@7b02881e]" name="IsSameFirstLastLetterIndexOfTest2" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveAllAllZerosTest1()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllAllZerosTest1" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveAllAllZerosTest2()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllAllZerosTest2" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveAllAsTest2()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllAsTest2" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveAllAsTest3()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllAsTest3" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveAllSpacesTest1()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllSpacesTest1" class="StringMethodsTest"/>
       </group> <!-- Acceptance -->
       <group name="Regression">
-        <method signature="StringMethodsTest.RemoveAllAsTest1()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllAsTest1" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveSpaceTest1()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveSpaceTest1" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveSpaceTest3()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveSpaceTest3" class="StringMethodsTest"/>
-        <method signature="SumArrayTest.testStartSumArray_HappyPath()[pri:0, instance:SumArrayTest@1ebd319f]" name="testStartSumArray_HappyPath" class="SumArrayTest"/>
-        <method signature="SumArrayTest.testStartSumArray_Negative()[pri:0, instance:SumArrayTest@1ebd319f]" name="testStartSumArray_Negative" class="SumArrayTest"/>
-        <method signature="SumOfTwoTest.testSumOfTwoEmptyArray_Negative()[pri:0, instance:SumOfTwoTest@7a675056]" name="testSumOfTwoEmptyArray_Negative" class="SumOfTwoTest"/>
-        <method signature="SumOfTwoTest.testSumOfTwo_HappyPath()[pri:0, instance:SumOfTwoTest@7a675056]" name="testSumOfTwo_HappyPath" class="SumOfTwoTest"/>
+        <method signature="StringMethodsTest.RemoveAllAsTest1()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllAsTest1" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveSpaceTest1()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveSpaceTest1" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveSpaceTest3()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveSpaceTest3" class="StringMethodsTest"/>
+        <method signature="SumArrayTest.testStartSumArray_HappyPath()[pri:0, instance:SumArrayTest@5f8edcc5]" name="testStartSumArray_HappyPath" class="SumArrayTest"/>
+        <method signature="SumArrayTest.testStartSumArray_Negative()[pri:0, instance:SumArrayTest@5f8edcc5]" name="testStartSumArray_Negative" class="SumArrayTest"/>
+        <method signature="SumOfTwoTest.testSumOfTwoEmptyArray_Negative()[pri:0, instance:SumOfTwoTest@3c0be339]" name="testSumOfTwoEmptyArray_Negative" class="SumOfTwoTest"/>
+        <method signature="SumOfTwoTest.testSumOfTwo_HappyPath()[pri:0, instance:SumOfTwoTest@3c0be339]" name="testSumOfTwo_HappyPath" class="SumOfTwoTest"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="StringMethodsTest.RemoveAllAsTest1()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveAllAsTest1" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveSpaceTest2()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveSpaceTest2" class="StringMethodsTest"/>
-        <method signature="StringMethodsTest.RemoveSpaceTest3()[pri:0, instance:StringMethodsTest@3c0be339]" name="RemoveSpaceTest3" class="StringMethodsTest"/>
-        <method signature="SumArrayTest.testStartNegSumArray_HappyPath()[pri:0, instance:SumArrayTest@1ebd319f]" name="testStartNegSumArray_HappyPath" class="SumArrayTest"/>
-        <method signature="SumArrayTest.testStartSumArray_Negative()[pri:0, instance:SumArrayTest@1ebd319f]" name="testStartSumArray_Negative" class="SumArrayTest"/>
-        <method signature="SumOfTwoTest.testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath()[pri:0, instance:SumOfTwoTest@7a675056]" name="testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath" class="SumOfTwoTest"/>
-        <method signature="SumOfTwoTest.testSumOfTwo_HappyPath()[pri:0, instance:SumOfTwoTest@7a675056]" name="testSumOfTwo_HappyPath" class="SumOfTwoTest"/>
+        <method signature="StringMethodsTest.RemoveAllAsTest1()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveAllAsTest1" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveSpaceTest2()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveSpaceTest2" class="StringMethodsTest"/>
+        <method signature="StringMethodsTest.RemoveSpaceTest3()[pri:0, instance:StringMethodsTest@7b02881e]" name="RemoveSpaceTest3" class="StringMethodsTest"/>
+        <method signature="SumArrayTest.testStartNegSumArray_HappyPath()[pri:0, instance:SumArrayTest@5f8edcc5]" name="testStartNegSumArray_HappyPath" class="SumArrayTest"/>
+        <method signature="SumArrayTest.testStartSumArray_Negative()[pri:0, instance:SumArrayTest@5f8edcc5]" name="testStartSumArray_Negative" class="SumArrayTest"/>
+        <method signature="SumOfTwoTest.testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath()[pri:0, instance:SumOfTwoTest@3c0be339]" name="testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath" class="SumOfTwoTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-03-02T19:50:56 GMT" name="Surefire test" finished-at="2023-03-02T19:50:56 GMT" duration-ms="95">
+    <test started-at="2023-03-06T14:22:35 GMT" name="Surefire test" finished-at="2023-03-06T14:22:35 GMT" duration-ms="89">
       <class name="StringMethodsTest">
-        <test-method signature="CountAsTest1()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="CountAsTest1" finished-at="2023-03-02T19:50:56 GMT" duration-ms="4" status="PASS">
+        <test-method signature="CountAsTest1()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="CountAsTest1" finished-at="2023-03-06T14:22:35 GMT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CountAsTest1 -->
-        <test-method signature="CountAsTest2()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="CountAsTest2" finished-at="2023-03-02T19:50:56 GMT" duration-ms="1" status="PASS">
+        <test-method signature="CountAsTest2()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="CountAsTest2" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CountAsTest2 -->
-        <test-method signature="CountAsTest3()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="CountAsTest3" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="CountAsTest3()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="CountAsTest3" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CountAsTest3 -->
-        <test-method signature="CountJavaTest1()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="CountJavaTest1" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="CountJavaTest1()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="CountJavaTest1" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CountJavaTest1 -->
-        <test-method signature="CountJavaTest2()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="CountJavaTest2" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="CountJavaTest2()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="CountJavaTest2" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CountJavaTest2 -->
-        <test-method signature="IsSameFirstLastLetterIndexOfTest2()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="IsSameFirstLastLetterIndexOfTest2" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IsSameFirstLastLetterIndexOfTest2 -->
-        <test-method signature="IsSameFirstLastLetterIndexOfTest1()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="IsSameFirstLastLetterIndexOfTest1" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="IsSameFirstLastLetterIndexOfTest1()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="IsSameFirstLastLetterIndexOfTest1" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IsSameFirstLastLetterIndexOfTest1 -->
-        <test-method signature="RemoveAllAllZerosTest1()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="RemoveAllAllZerosTest1" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="IsSameFirstLastLetterIndexOfTest2()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="IsSameFirstLastLetterIndexOfTest2" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsSameFirstLastLetterIndexOfTest2 -->
+        <test-method signature="RemoveAllAllZerosTest1()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="RemoveAllAllZerosTest1" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveAllAllZerosTest1 -->
-        <test-method signature="RemoveAllAllZerosTest2()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="RemoveAllAllZerosTest2" finished-at="2023-03-02T19:50:56 GMT" duration-ms="1" status="PASS">
+        <test-method signature="RemoveAllAllZerosTest2()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="RemoveAllAllZerosTest2" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveAllAllZerosTest2 -->
-        <test-method signature="RemoveAllAsTest1()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="RemoveAllAsTest1" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="RemoveAllAsTest1()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="RemoveAllAsTest1" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveAllAsTest1 -->
-        <test-method signature="RemoveAllAsTest2()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="RemoveAllAsTest2" finished-at="2023-03-02T19:50:56 GMT" duration-ms="1" status="PASS">
+        <test-method signature="RemoveAllAsTest2()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="RemoveAllAsTest2" finished-at="2023-03-06T14:22:35 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveAllAsTest2 -->
-        <test-method signature="RemoveAllAsTest3()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="RemoveAllAsTest3" finished-at="2023-03-02T19:50:56 GMT" duration-ms="1" status="PASS">
+        <test-method signature="RemoveAllAsTest3()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="RemoveAllAsTest3" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveAllAsTest3 -->
-        <test-method signature="RemoveAllSpacesTest2()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="RemoveAllSpacesTest2" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RemoveAllSpacesTest2 -->
-        <test-method signature="RemoveAllSpacesTest1()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="RemoveAllSpacesTest1" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="RemoveAllSpacesTest1()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="RemoveAllSpacesTest1" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveAllSpacesTest1 -->
-        <test-method signature="RemoveSpaceTest1()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="RemoveSpaceTest1" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="RemoveAllSpacesTest2()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="RemoveAllSpacesTest2" finished-at="2023-03-06T14:22:35 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveAllSpacesTest2 -->
+        <test-method signature="RemoveSpaceTest1()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="RemoveSpaceTest1" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveSpaceTest1 -->
-        <test-method signature="RemoveSpaceTest2()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="RemoveSpaceTest2" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="RemoveSpaceTest2()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="RemoveSpaceTest2" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveSpaceTest2 -->
-        <test-method signature="RemoveSpaceTest3()[pri:0, instance:StringMethodsTest@3c0be339]" started-at="2023-03-02T19:50:56 GMT" name="RemoveSpaceTest3" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="RemoveSpaceTest3()[pri:0, instance:StringMethodsTest@7b02881e]" started-at="2023-03-06T14:22:35 GMT" name="RemoveSpaceTest3" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveSpaceTest3 -->
       </class> <!-- StringMethodsTest -->
       <class name="ReverseArrayTest">
-        <test-method signature="testReverseArray_HappyPath()[pri:0, instance:ReverseArrayTest@15ca7889]" started-at="2023-03-02T19:50:56 GMT" name="testReverseArray_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testReverseArray_HappyPath()[pri:0, instance:ReverseArrayTest@1ebd319f]" started-at="2023-03-06T14:22:35 GMT" name="testReverseArray_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReverseArray_HappyPath -->
-        <test-method signature="testReverseArray_Negative()[pri:0, instance:ReverseArrayTest@15ca7889]" started-at="2023-03-02T19:50:56 GMT" name="testReverseArray_Negative" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testReverseArray_Negative()[pri:0, instance:ReverseArrayTest@1ebd319f]" started-at="2023-03-06T14:22:35 GMT" name="testReverseArray_Negative" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReverseArray_Negative -->
       </class> <!-- ReverseArrayTest -->
       <class name="PeakElementTest">
-        <test-method signature="testPeakElementEmpty_Negative()[pri:0, instance:PeakElementTest@7b02881e]" started-at="2023-03-02T19:50:56 GMT" name="testPeakElementEmpty_Negative" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testPeakElementEmpty_Negative()[pri:0, instance:PeakElementTest@6db9f5a4]" started-at="2023-03-06T14:22:35 GMT" name="testPeakElementEmpty_Negative" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPeakElementEmpty_Negative -->
-        <test-method signature="testPeakElement_HappyPath()[pri:0, instance:PeakElementTest@7b02881e]" started-at="2023-03-02T19:50:56 GMT" name="testPeakElement_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="1" status="PASS">
+        <test-method signature="testPeakElement_HappyPath()[pri:0, instance:PeakElementTest@6db9f5a4]" started-at="2023-03-06T14:22:35 GMT" name="testPeakElement_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPeakElement_HappyPath -->
-        <test-method signature="testPeakElementSomeNegative_HappyPath()[pri:0, instance:PeakElementTest@7b02881e]" started-at="2023-03-02T19:50:56 GMT" name="testPeakElementSomeNegative_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testPeakElementSomeNegative_HappyPath()[pri:0, instance:PeakElementTest@6db9f5a4]" started-at="2023-03-06T14:22:35 GMT" name="testPeakElementSomeNegative_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPeakElementSomeNegative_HappyPath -->
       </class> <!-- PeakElementTest -->
       <class name="SumOfTwoTest">
-        <test-method signature="testSumOfTwoEmptyArray_Negative()[pri:0, instance:SumOfTwoTest@7a675056]" started-at="2023-03-02T19:50:56 GMT" name="testSumOfTwoEmptyArray_Negative" finished-at="2023-03-02T19:50:56 GMT" duration-ms="1" status="PASS">
+        <test-method signature="testSumOfTwoEmptyArray_Negative()[pri:0, instance:SumOfTwoTest@3c0be339]" started-at="2023-03-06T14:22:35 GMT" name="testSumOfTwoEmptyArray_Negative" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSumOfTwoEmptyArray_Negative -->
-        <test-method signature="testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath()[pri:0, instance:SumOfTwoTest@7a675056]" started-at="2023-03-02T19:50:56 GMT" name="testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="1" status="PASS">
+        <test-method signature="testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath()[pri:0, instance:SumOfTwoTest@3c0be339]" started-at="2023-03-06T14:22:35 GMT" name="testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSumOfTwoThereIsNoPairThatIsEqualToTheSum_HappyPath -->
-        <test-method signature="testSumOfTwo_HappyPath()[pri:0, instance:SumOfTwoTest@7a675056]" started-at="2023-03-02T19:50:56 GMT" name="testSumOfTwo_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="8" status="PASS">
+        <test-method signature="testSumOfTwo_HappyPath()[pri:0, instance:SumOfTwoTest@3c0be339]" started-at="2023-03-06T14:22:35 GMT" name="testSumOfTwo_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSumOfTwo_HappyPath -->
       </class> <!-- SumOfTwoTest -->
       <class name="OddIndicesTest">
-        <test-method signature="testOddIndicesEmpty_Negative()[pri:0, instance:OddIndicesTest@6db9f5a4]" started-at="2023-03-02T19:50:56 GMT" name="testOddIndicesEmpty_Negative" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testOddIndicesEmpty_Negative()[pri:0, instance:OddIndicesTest@10d68fcd]" started-at="2023-03-06T14:22:35 GMT" name="testOddIndicesEmpty_Negative" finished-at="2023-03-06T14:22:35 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOddIndicesEmpty_Negative -->
-        <test-method signature="testOddIndicesWithArrayOfTwo_HappyPath()[pri:0, instance:OddIndicesTest@6db9f5a4]" started-at="2023-03-02T19:50:56 GMT" name="testOddIndicesWithArrayOfTwo_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOddIndicesWithArrayOfTwo_HappyPath -->
-        <test-method signature="testOddIndicesNull_Negative()[pri:0, instance:OddIndicesTest@6db9f5a4]" started-at="2023-03-02T19:50:56 GMT" name="testOddIndicesNull_Negative" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testOddIndicesNull_Negative()[pri:0, instance:OddIndicesTest@10d68fcd]" started-at="2023-03-06T14:22:35 GMT" name="testOddIndicesNull_Negative" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOddIndicesNull_Negative -->
-        <test-method signature="testOddIndices_HappyPath()[pri:0, instance:OddIndicesTest@6db9f5a4]" started-at="2023-03-02T19:50:56 GMT" name="testOddIndices_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testOddIndicesWithArrayOfTwo_HappyPath()[pri:0, instance:OddIndicesTest@10d68fcd]" started-at="2023-03-06T14:22:35 GMT" name="testOddIndicesWithArrayOfTwo_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOddIndicesWithArrayOfTwo_HappyPath -->
+        <test-method signature="testOddIndices_HappyPath()[pri:0, instance:OddIndicesTest@10d68fcd]" started-at="2023-03-06T14:22:35 GMT" name="testOddIndices_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOddIndices_HappyPath -->
       </class> <!-- OddIndicesTest -->
       <class name="SumArrayTest">
-        <test-method signature="testStartNegSumArray_HappyPath()[pri:0, instance:SumArrayTest@1ebd319f]" started-at="2023-03-02T19:50:56 GMT" name="testStartNegSumArray_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="1" status="PASS">
+        <test-method signature="testStartNegSumArray_HappyPath()[pri:0, instance:SumArrayTest@5f8edcc5]" started-at="2023-03-06T14:22:35 GMT" name="testStartNegSumArray_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartNegSumArray_HappyPath -->
-        <test-method signature="testStartSumArray_HappyPath()[pri:0, instance:SumArrayTest@1ebd319f]" started-at="2023-03-02T19:50:56 GMT" name="testStartSumArray_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="1" status="PASS">
+        <test-method signature="testStartSumArray_HappyPath()[pri:0, instance:SumArrayTest@5f8edcc5]" started-at="2023-03-06T14:22:35 GMT" name="testStartSumArray_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartSumArray_HappyPath -->
-        <test-method signature="testStartSumArray_Negative()[pri:0, instance:SumArrayTest@1ebd319f]" started-at="2023-03-02T19:50:56 GMT" name="testStartSumArray_Negative" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testStartSumArray_Negative()[pri:0, instance:SumArrayTest@5f8edcc5]" started-at="2023-03-06T14:22:35 GMT" name="testStartSumArray_Negative" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartSumArray_Negative -->
       </class> <!-- SumArrayTest -->
       <class name="SortArrayTest">
-        <test-method signature="testSortArray_HappyPath()[pri:0, instance:SortArrayTest@5f8edcc5]" started-at="2023-03-02T19:50:56 GMT" name="testSortArray_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testSortArray_HappyPath()[pri:0, instance:SortArrayTest@117e949d]" started-at="2023-03-06T14:22:35 GMT" name="testSortArray_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortArray_HappyPath -->
-        <test-method signature="testSortArray_Negative()[pri:0, instance:SortArrayTest@5f8edcc5]" started-at="2023-03-02T19:50:56 GMT" name="testSortArray_Negative" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testSortArray_Negative()[pri:0, instance:SortArrayTest@117e949d]" started-at="2023-03-06T14:22:35 GMT" name="testSortArray_Negative" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortArray_Negative -->
       </class> <!-- SortArrayTest -->
       <class name="FizzBuzzTest">
-        <test-method signature="testStartEqualsEnd_HappyPath()[pri:0, instance:FizzBuzzTest@4c309d4d]" started-at="2023-03-02T19:50:56 GMT" name="testStartEqualsEnd_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="6" status="PASS">
+        <test-method signature="testStartEqualsEnd_HappyPath()[pri:0, instance:FizzBuzzTest@37271612]" started-at="2023-03-06T14:22:35 GMT" name="testStartEqualsEnd_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartEqualsEnd_HappyPath -->
-        <test-method signature="testStartGreaterThanEnd_Negative()[pri:0, instance:FizzBuzzTest@4c309d4d]" started-at="2023-03-02T19:50:56 GMT" name="testStartGreaterThanEnd_Negative" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testStartGreaterThanEnd_Negative()[pri:0, instance:FizzBuzzTest@37271612]" started-at="2023-03-06T14:22:35 GMT" name="testStartGreaterThanEnd_Negative" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartGreaterThanEnd_Negative -->
-        <test-method signature="testStartLessThanEnd_HappyPath()[pri:0, instance:FizzBuzzTest@4c309d4d]" started-at="2023-03-02T19:50:56 GMT" name="testStartLessThanEnd_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testStartLessThanEnd_HappyPath()[pri:0, instance:FizzBuzzTest@37271612]" started-at="2023-03-06T14:22:35 GMT" name="testStartLessThanEnd_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartLessThanEnd_HappyPath -->
-        <test-method signature="testStartLessThanEnd_StartEndAreNegative_HappyPath()[pri:0, instance:FizzBuzzTest@4c309d4d]" started-at="2023-03-02T19:50:56 GMT" name="testStartLessThanEnd_StartEndAreNegative_HappyPath" finished-at="2023-03-02T19:50:56 GMT" duration-ms="0" status="PASS">
+        <test-method signature="testStartLessThanEnd_StartEndAreNegative_HappyPath()[pri:0, instance:FizzBuzzTest@37271612]" started-at="2023-03-06T14:22:35 GMT" name="testStartLessThanEnd_StartEndAreNegative_HappyPath" finished-at="2023-03-06T14:22:35 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartLessThanEnd_StartEndAreNegative_HappyPath -->
