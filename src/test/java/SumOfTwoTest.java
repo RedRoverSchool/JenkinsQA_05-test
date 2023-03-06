@@ -24,17 +24,7 @@ public class SumOfTwoTest {
 
         Assert.assertEquals(actualResult,expectedResult);
     }
-    
-    @Ignore
-    @Test
-    public void testSumOfTwoSmallArrayWithSameValues_HappyPath() {
-        int sum = 8;
-        int[]array = {4,4};
-        int[][] expectedResult = {{4, 4}};
-        int[][] actualResult = new SumOfTwo().sumOfTwo(array,sum);
 
-        Assert.assertEquals(actualResult,expectedResult);
-    }
 
     @Test(groups = {"Regression"})
     public void testSumOfTwoEmptyArray_Negative() {
